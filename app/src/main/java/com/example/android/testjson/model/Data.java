@@ -1,5 +1,5 @@
 
-package com.example.android.testjson;
+package com.example.android.testjson.model;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

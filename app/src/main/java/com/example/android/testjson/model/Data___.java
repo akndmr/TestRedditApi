@@ -1,5 +1,5 @@
 
-package com.example.android.testjson;
+package com.example.android.testjson.model;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
@@ -9,7 +9,7 @@ public class Data___ {
 
     @SerializedName("count")
     @Expose
-    private Integer count;
+    private int count;
     @SerializedName("name")
     @Expose
     private String name;
@@ -21,16 +21,16 @@ public class Data___ {
     private String parentId;
     @SerializedName("depth")
     @Expose
-    private Integer depth;
+    private int depth;
     @SerializedName("children")
     @Expose
     private List<String> children = null;
 
-    public Integer getCount() {
+    public int getCount() {
         return count;
     }
 
-    public void setCount(Integer count) {
+    public void setCount(int count) {
         this.count = count;
     }
 
@@ -58,11 +58,11 @@ public class Data___ {
         this.parentId = parentId;
     }
 
-    public Integer getDepth() {
+    public int getDepth() {
         return depth;
     }
 
-    public void setDepth(Integer depth) {
+    public void setDepth(int depth) {
         this.depth = depth;
     }
 

@@ -1,5 +1,5 @@
 
-package com.example.android.testjson;
+package com.example.android.testjson.model;
 
 
 public class SecureMediaEmbed {

@@ -1,5 +1,5 @@
 
-package com.example.android.testjson;
+package com.example.android.testjson.model;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
@@ -21,16 +21,16 @@ public class Data_ {
     private List<Object> userReports = null;
     @SerializedName("saved")
     @Expose
-    private Boolean saved;
+    private boolean saved;
     @SerializedName("mod_reason_title")
     @Expose
     private Object modReasonTitle;
     @SerializedName("gilded")
     @Expose
-    private Integer gilded;
+    private int gilded;
     @SerializedName("clicked")
     @Expose
-    private Boolean clicked;
+    private boolean clicked;
     @SerializedName("title")
     @Expose
     private String title;
@@ -42,34 +42,34 @@ public class Data_ {
     private String subredditNamePrefixed;
     @SerializedName("hidden")
     @Expose
-    private Boolean hidden;
+    private boolean hidden;
     @SerializedName("pwls")
     @Expose
-    private Integer pwls;
+    private int pwls;
     @SerializedName("link_flair_css_class")
     @Expose
     private String linkFlairCssClass;
     @SerializedName("downs")
     @Expose
-    private Integer downs;
+    private int downs;
     @SerializedName("parent_whitelist_status")
     @Expose
     private String parentWhitelistStatus;
     @SerializedName("hide_score")
     @Expose
-    private Boolean hideScore;
+    private boolean hideScore;
     @SerializedName("name")
     @Expose
     private String name;
     @SerializedName("quarantine")
     @Expose
-    private Boolean quarantine;
+    private boolean quarantine;
     @SerializedName("link_flair_text_color")
     @Expose
     private String linkFlairTextColor;
     @SerializedName("upvote_ratio")
     @Expose
-    private Double upvoteRatio;
+    private double upvoteRatio;
     @SerializedName("author_flair_background_color")
     @Expose
     private String authorFlairBackgroundColor;
@@ -78,7 +78,7 @@ public class Data_ {
     private String subredditType;
     @SerializedName("ups")
     @Expose
-    private Integer ups;
+    private int ups;
     @SerializedName("domain")
     @Expose
     private String domain;
@@ -90,16 +90,16 @@ public class Data_ {
     private Object authorFlairTemplateId;
     @SerializedName("is_original_content")
     @Expose
-    private Boolean isOriginalContent;
+    private boolean isOriginalContent;
     @SerializedName("secure_media")
     @Expose
     private Object secureMedia;
     @SerializedName("is_reddit_media_domain")
     @Expose
-    private Boolean isRedditMediaDomain;
+    private boolean isRedditMediaDomain;
     @SerializedName("is_meta")
     @Expose
-    private Boolean isMeta;
+    private boolean isMeta;
     @SerializedName("category")
     @Expose
     private Object category;
@@ -111,19 +111,20 @@ public class Data_ {
     private String linkFlairText;
     @SerializedName("can_mod_post")
     @Expose
-    private Boolean canModPost;
+    private boolean canModPost;
     @SerializedName("score")
     @Expose
-    private Integer score;
+    private int score;
     @SerializedName("approved_by")
     @Expose
     private Object approvedBy;
     @SerializedName("thumbnail")
     @Expose
     private String thumbnail;
-    @SerializedName("edited")
-    @Expose
-    private Double edited;
+
+    //Skip this field
+    private boolean edited;
+
     @SerializedName("author_flair_css_class")
     @Expose
     private String authorFlairCssClass;
@@ -135,19 +136,19 @@ public class Data_ {
     private Object contentCategories;
     @SerializedName("is_self")
     @Expose
-    private Boolean isSelf;
+    private boolean isSelf;
     @SerializedName("mod_note")
     @Expose
     private Object modNote;
     @SerializedName("created")
     @Expose
-    private Double created;
+    private double created;
     @SerializedName("link_flair_type")
     @Expose
     private String linkFlairType;
     @SerializedName("wls")
     @Expose
-    private Integer wls;
+    private int wls;
     @SerializedName("post_categories")
     @Expose
     private Object postCategories;
@@ -159,7 +160,7 @@ public class Data_ {
     private String authorFlairType;
     @SerializedName("contest_mode")
     @Expose
-    private Boolean contestMode;
+    private boolean contestMode;
     @SerializedName("selftext_html")
     @Expose
     private Object selftextHtml;
@@ -177,37 +178,37 @@ public class Data_ {
     private Object viewCount;
     @SerializedName("archived")
     @Expose
-    private Boolean archived;
+    private boolean archived;
     @SerializedName("no_follow")
     @Expose
-    private Boolean noFollow;
+    private boolean noFollow;
     @SerializedName("is_crosspostable")
     @Expose
-    private Boolean isCrosspostable;
+    private boolean isCrosspostable;
     @SerializedName("pinned")
     @Expose
-    private Boolean pinned;
+    private boolean pinned;
     @SerializedName("over_18")
     @Expose
-    private Boolean over18;
+    private boolean over18;
     @SerializedName("media")
     @Expose
     private Object media;
     @SerializedName("media_only")
     @Expose
-    private Boolean mediaOnly;
+    private boolean mediaOnly;
     @SerializedName("link_flair_template_id")
     @Expose
     private Object linkFlairTemplateId;
     @SerializedName("can_gild")
     @Expose
-    private Boolean canGild;
+    private boolean canGild;
     @SerializedName("spoiler")
     @Expose
-    private Boolean spoiler;
+    private boolean spoiler;
     @SerializedName("locked")
     @Expose
-    private Boolean locked;
+    private boolean locked;
     @SerializedName("author_flair_text")
     @Expose
     private String authorFlairText;
@@ -216,7 +217,7 @@ public class Data_ {
     private String rteMode;
     @SerializedName("visited")
     @Expose
-    private Boolean visited;
+    private boolean visited;
     @SerializedName("num_reports")
     @Expose
     private Object numReports;
@@ -246,13 +247,13 @@ public class Data_ {
     private String author;
     @SerializedName("num_crossposts")
     @Expose
-    private Integer numCrossposts;
+    private int numCrossposts;
     @SerializedName("num_comments")
     @Expose
-    private Integer numComments;
+    private int numComments;
     @SerializedName("send_replies")
     @Expose
-    private Boolean sendReplies;
+    private boolean sendReplies;
     @SerializedName("author_flair_text_color")
     @Expose
     private String authorFlairTextColor;
@@ -264,22 +265,22 @@ public class Data_ {
     private String whitelistStatus;
     @SerializedName("stickied")
     @Expose
-    private Boolean stickied;
+    private boolean stickied;
     @SerializedName("url")
     @Expose
     private String url;
     @SerializedName("subreddit_subscribers")
     @Expose
-    private Integer subredditSubscribers;
+    private int subredditSubscribers;
     @SerializedName("created_utc")
     @Expose
-    private Double createdUtc;
+    private double createdUtc;
     @SerializedName("mod_reports")
     @Expose
     private List<Object> modReports = null;
     @SerializedName("is_video")
     @Expose
-    private Boolean isVideo;
+    private boolean isVideo;
     @SerializedName("link_id")
     @Expose
     private String linkId;
@@ -294,10 +295,10 @@ public class Data_ {
     private String body;
     @SerializedName("collapsed")
     @Expose
-    private Boolean collapsed;
+    private boolean collapsed;
     @SerializedName("is_submitter")
     @Expose
-    private Boolean isSubmitter;
+    private boolean isSubmitter;
     @SerializedName("collapsed_reason")
     @Expose
     private Object collapsedReason;
@@ -306,16 +307,16 @@ public class Data_ {
     private String bodyHtml;
     @SerializedName("score_hidden")
     @Expose
-    private Boolean scoreHidden;
+    private boolean scoreHidden;
     @SerializedName("controversiality")
     @Expose
-    private Integer controversiality;
+    private int controversiality;
     @SerializedName("depth")
     @Expose
-    private Integer depth;
+    private int depth;
     @SerializedName("count")
     @Expose
-    private Integer count;
+    private int count;
     @SerializedName("children")
     @Expose
     private List<String> children = null;
@@ -352,11 +353,11 @@ public class Data_ {
         this.userReports = userReports;
     }
 
-    public Boolean getSaved() {
+    public boolean isSaved() {
         return saved;
     }
 
-    public void setSaved(Boolean saved) {
+    public void setSaved(boolean saved) {
         this.saved = saved;
     }
 
@@ -368,19 +369,19 @@ public class Data_ {
         this.modReasonTitle = modReasonTitle;
     }
 
-    public Integer getGilded() {
+    public int getGilded() {
         return gilded;
     }
 
-    public void setGilded(Integer gilded) {
+    public void setGilded(int gilded) {
         this.gilded = gilded;
     }
 
-    public Boolean getClicked() {
+    public boolean isClicked() {
         return clicked;
     }
 
-    public void setClicked(Boolean clicked) {
+    public void setClicked(boolean clicked) {
         this.clicked = clicked;
     }
 
@@ -408,19 +409,19 @@ public class Data_ {
         this.subredditNamePrefixed = subredditNamePrefixed;
     }
 
-    public Boolean getHidden() {
+    public boolean isHidden() {
         return hidden;
     }
 
-    public void setHidden(Boolean hidden) {
+    public void setHidden(boolean hidden) {
         this.hidden = hidden;
     }
 
-    public Integer getPwls() {
+    public int getPwls() {
         return pwls;
     }
 
-    public void setPwls(Integer pwls) {
+    public void setPwls(int pwls) {
         this.pwls = pwls;
     }
 
@@ -432,11 +433,11 @@ public class Data_ {
         this.linkFlairCssClass = linkFlairCssClass;
     }
 
-    public Integer getDowns() {
+    public int getDowns() {
         return downs;
     }
 
-    public void setDowns(Integer downs) {
+    public void setDowns(int downs) {
         this.downs = downs;
     }
 
@@ -448,11 +449,11 @@ public class Data_ {
         this.parentWhitelistStatus = parentWhitelistStatus;
     }
 
-    public Boolean getHideScore() {
+    public boolean isHideScore() {
         return hideScore;
     }
 
-    public void setHideScore(Boolean hideScore) {
+    public void setHideScore(boolean hideScore) {
         this.hideScore = hideScore;
     }
 
@@ -464,11 +465,11 @@ public class Data_ {
         this.name = name;
     }
 
-    public Boolean getQuarantine() {
+    public boolean isQuarantine() {
         return quarantine;
     }
 
-    public void setQuarantine(Boolean quarantine) {
+    public void setQuarantine(boolean quarantine) {
         this.quarantine = quarantine;
     }
 
@@ -480,11 +481,11 @@ public class Data_ {
         this.linkFlairTextColor = linkFlairTextColor;
     }
 
-    public Double getUpvoteRatio() {
+    public double getUpvoteRatio() {
         return upvoteRatio;
     }
 
-    public void setUpvoteRatio(Double upvoteRatio) {
+    public void setUpvoteRatio(double upvoteRatio) {
         this.upvoteRatio = upvoteRatio;
     }
 
@@ -504,11 +505,11 @@ public class Data_ {
         this.subredditType = subredditType;
     }
 
-    public Integer getUps() {
+    public int getUps() {
         return ups;
     }
 
-    public void setUps(Integer ups) {
+    public void setUps(int ups) {
         this.ups = ups;
     }
 
@@ -536,11 +537,11 @@ public class Data_ {
         this.authorFlairTemplateId = authorFlairTemplateId;
     }
 
-    public Boolean getIsOriginalContent() {
+    public boolean isIsOriginalContent() {
         return isOriginalContent;
     }
 
-    public void setIsOriginalContent(Boolean isOriginalContent) {
+    public void setIsOriginalContent(boolean isOriginalContent) {
         this.isOriginalContent = isOriginalContent;
     }
 
@@ -552,19 +553,19 @@ public class Data_ {
         this.secureMedia = secureMedia;
     }
 
-    public Boolean getIsRedditMediaDomain() {
+    public boolean isIsRedditMediaDomain() {
         return isRedditMediaDomain;
     }
 
-    public void setIsRedditMediaDomain(Boolean isRedditMediaDomain) {
+    public void setIsRedditMediaDomain(boolean isRedditMediaDomain) {
         this.isRedditMediaDomain = isRedditMediaDomain;
     }
 
-    public Boolean getIsMeta() {
+    public boolean isIsMeta() {
         return isMeta;
     }
 
-    public void setIsMeta(Boolean isMeta) {
+    public void setIsMeta(boolean isMeta) {
         this.isMeta = isMeta;
     }
 
@@ -592,19 +593,19 @@ public class Data_ {
         this.linkFlairText = linkFlairText;
     }
 
-    public Boolean getCanModPost() {
+    public boolean isCanModPost() {
         return canModPost;
     }
 
-    public void setCanModPost(Boolean canModPost) {
+    public void setCanModPost(boolean canModPost) {
         this.canModPost = canModPost;
     }
 
-    public Integer getScore() {
+    public int getScore() {
         return score;
     }
 
-    public void setScore(Integer score) {
+    public void setScore(int score) {
         this.score = score;
     }
 
@@ -624,11 +625,11 @@ public class Data_ {
         this.thumbnail = thumbnail;
     }
 
-    public Double getEdited() {
+    public boolean isEdited() {
         return edited;
     }
 
-    public void setEdited(Double edited) {
+    public void setEdited(boolean edited) {
         this.edited = edited;
     }
 
@@ -656,11 +657,11 @@ public class Data_ {
         this.contentCategories = contentCategories;
     }
 
-    public Boolean getIsSelf() {
+    public boolean isIsSelf() {
         return isSelf;
     }
 
-    public void setIsSelf(Boolean isSelf) {
+    public void setIsSelf(boolean isSelf) {
         this.isSelf = isSelf;
     }
 
@@ -672,11 +673,11 @@ public class Data_ {
         this.modNote = modNote;
     }
 
-    public Double getCreated() {
+    public double getCreated() {
         return created;
     }
 
-    public void setCreated(Double created) {
+    public void setCreated(double created) {
         this.created = created;
     }
 
@@ -688,11 +689,11 @@ public class Data_ {
         this.linkFlairType = linkFlairType;
     }
 
-    public Integer getWls() {
+    public int getWls() {
         return wls;
     }
 
-    public void setWls(Integer wls) {
+    public void setWls(int wls) {
         this.wls = wls;
     }
 
@@ -720,11 +721,11 @@ public class Data_ {
         this.authorFlairType = authorFlairType;
     }
 
-    public Boolean getContestMode() {
+    public boolean isContestMode() {
         return contestMode;
     }
 
-    public void setContestMode(Boolean contestMode) {
+    public void setContestMode(boolean contestMode) {
         this.contestMode = contestMode;
     }
 
@@ -768,43 +769,43 @@ public class Data_ {
         this.viewCount = viewCount;
     }
 
-    public Boolean getArchived() {
+    public boolean isArchived() {
         return archived;
     }
 
-    public void setArchived(Boolean archived) {
+    public void setArchived(boolean archived) {
         this.archived = archived;
     }
 
-    public Boolean getNoFollow() {
+    public boolean isNoFollow() {
         return noFollow;
     }
 
-    public void setNoFollow(Boolean noFollow) {
+    public void setNoFollow(boolean noFollow) {
         this.noFollow = noFollow;
     }
 
-    public Boolean getIsCrosspostable() {
+    public boolean isIsCrosspostable() {
         return isCrosspostable;
     }
 
-    public void setIsCrosspostable(Boolean isCrosspostable) {
+    public void setIsCrosspostable(boolean isCrosspostable) {
         this.isCrosspostable = isCrosspostable;
     }
 
-    public Boolean getPinned() {
+    public boolean isPinned() {
         return pinned;
     }
 
-    public void setPinned(Boolean pinned) {
+    public void setPinned(boolean pinned) {
         this.pinned = pinned;
     }
 
-    public Boolean getOver18() {
+    public boolean isOver18() {
         return over18;
     }
 
-    public void setOver18(Boolean over18) {
+    public void setOver18(boolean over18) {
         this.over18 = over18;
     }
 
@@ -816,11 +817,11 @@ public class Data_ {
         this.media = media;
     }
 
-    public Boolean getMediaOnly() {
+    public boolean isMediaOnly() {
         return mediaOnly;
     }
 
-    public void setMediaOnly(Boolean mediaOnly) {
+    public void setMediaOnly(boolean mediaOnly) {
         this.mediaOnly = mediaOnly;
     }
 
@@ -832,27 +833,27 @@ public class Data_ {
         this.linkFlairTemplateId = linkFlairTemplateId;
     }
 
-    public Boolean getCanGild() {
+    public boolean isCanGild() {
         return canGild;
     }
 
-    public void setCanGild(Boolean canGild) {
+    public void setCanGild(boolean canGild) {
         this.canGild = canGild;
     }
 
-    public Boolean getSpoiler() {
+    public boolean isSpoiler() {
         return spoiler;
     }
 
-    public void setSpoiler(Boolean spoiler) {
+    public void setSpoiler(boolean spoiler) {
         this.spoiler = spoiler;
     }
 
-    public Boolean getLocked() {
+    public boolean isLocked() {
         return locked;
     }
 
-    public void setLocked(Boolean locked) {
+    public void setLocked(boolean locked) {
         this.locked = locked;
     }
 
@@ -872,11 +873,11 @@ public class Data_ {
         this.rteMode = rteMode;
     }
 
-    public Boolean getVisited() {
+    public boolean isVisited() {
         return visited;
     }
 
-    public void setVisited(Boolean visited) {
+    public void setVisited(boolean visited) {
         this.visited = visited;
     }
 
@@ -952,27 +953,27 @@ public class Data_ {
         this.author = author;
     }
 
-    public Integer getNumCrossposts() {
+    public int getNumCrossposts() {
         return numCrossposts;
     }
 
-    public void setNumCrossposts(Integer numCrossposts) {
+    public void setNumCrossposts(int numCrossposts) {
         this.numCrossposts = numCrossposts;
     }
 
-    public Integer getNumComments() {
+    public int getNumComments() {
         return numComments;
     }
 
-    public void setNumComments(Integer numComments) {
+    public void setNumComments(int numComments) {
         this.numComments = numComments;
     }
 
-    public Boolean getSendReplies() {
+    public boolean isSendReplies() {
         return sendReplies;
     }
 
-    public void setSendReplies(Boolean sendReplies) {
+    public void setSendReplies(boolean sendReplies) {
         this.sendReplies = sendReplies;
     }
 
@@ -1000,11 +1001,11 @@ public class Data_ {
         this.whitelistStatus = whitelistStatus;
     }
 
-    public Boolean getStickied() {
+    public boolean isStickied() {
         return stickied;
     }
 
-    public void setStickied(Boolean stickied) {
+    public void setStickied(boolean stickied) {
         this.stickied = stickied;
     }
 
@@ -1016,19 +1017,19 @@ public class Data_ {
         this.url = url;
     }
 
-    public Integer getSubredditSubscribers() {
+    public int getSubredditSubscribers() {
         return subredditSubscribers;
     }
 
-    public void setSubredditSubscribers(Integer subredditSubscribers) {
+    public void setSubredditSubscribers(int subredditSubscribers) {
         this.subredditSubscribers = subredditSubscribers;
     }
 
-    public Double getCreatedUtc() {
+    public double getCreatedUtc() {
         return createdUtc;
     }
 
-    public void setCreatedUtc(Double createdUtc) {
+    public void setCreatedUtc(double createdUtc) {
         this.createdUtc = createdUtc;
     }
 
@@ -1040,11 +1041,11 @@ public class Data_ {
         this.modReports = modReports;
     }
 
-    public Boolean getIsVideo() {
+    public boolean isIsVideo() {
         return isVideo;
     }
 
-    public void setIsVideo(Boolean isVideo) {
+    public void setIsVideo(boolean isVideo) {
         this.isVideo = isVideo;
     }
 
@@ -1080,19 +1081,19 @@ public class Data_ {
         this.body = body;
     }
 
-    public Boolean getCollapsed() {
+    public boolean isCollapsed() {
         return collapsed;
     }
 
-    public void setCollapsed(Boolean collapsed) {
+    public void setCollapsed(boolean collapsed) {
         this.collapsed = collapsed;
     }
 
-    public Boolean getIsSubmitter() {
+    public boolean isIsSubmitter() {
         return isSubmitter;
     }
 
-    public void setIsSubmitter(Boolean isSubmitter) {
+    public void setIsSubmitter(boolean isSubmitter) {
         this.isSubmitter = isSubmitter;
     }
 
@@ -1112,35 +1113,35 @@ public class Data_ {
         this.bodyHtml = bodyHtml;
     }
 
-    public Boolean getScoreHidden() {
+    public boolean isScoreHidden() {
         return scoreHidden;
     }
 
-    public void setScoreHidden(Boolean scoreHidden) {
+    public void setScoreHidden(boolean scoreHidden) {
         this.scoreHidden = scoreHidden;
     }
 
-    public Integer getControversiality() {
+    public int getControversiality() {
         return controversiality;
     }
 
-    public void setControversiality(Integer controversiality) {
+    public void setControversiality(int controversiality) {
         this.controversiality = controversiality;
     }
 
-    public Integer getDepth() {
+    public int getDepth() {
         return depth;
     }
 
-    public void setDepth(Integer depth) {
+    public void setDepth(int depth) {
         this.depth = depth;
     }
 
-    public Integer getCount() {
+    public int getCount() {
         return count;
     }
 
-    public void setCount(Integer count) {
+    public void setCount(int count) {
         this.count = count;
     }
 
